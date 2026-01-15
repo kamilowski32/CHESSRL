@@ -1,0 +1,16 @@
+name: chess-rl
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - pip
+  - pytorch
+  - cpuonly
+  - pip:
+      - python-chess
+      - tensorboard
